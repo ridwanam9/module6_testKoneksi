@@ -1,0 +1,166 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "module7_apiDocumentation",
+    "collectionId": "947bea58-1abf-4177-a224-5465468ce72c",
+    "dateExported": "2025-03-15T15:18:21.678Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "cad174b4-13a4-4785-9f43-6fe3830953cf",
+            "colId": "947bea58-1abf-4177-a224-5465468ce72c",
+            "containerId": "",
+            "name": "Module7_3 Login admin",
+            "url": "http://127.0.0.1:5000/login",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2025-03-15T15:16:06.386Z",
+            "modified": "2025-03-15T15:16:06.386Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"admin\", \n  \"password\": \"admin123\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "59d83571-2dfb-4575-8462-ed608358ea96",
+            "colId": "947bea58-1abf-4177-a224-5465468ce72c",
+            "containerId": "",
+            "name": "Module7_3 users/me",
+            "url": "http://127.0.0.1:5000/users/me",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2025-03-15T15:17:12.329Z",
+            "modified": "2025-03-15T15:17:12.329Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjA1MTYxNywianRpIjoiYThiZDM5ODctMWJiNi00ZTlhLTk5MmUtNTM1NzM0ZWRlZmVkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDIwNTE2MTcsImNzcmYiOiI1MjU4MjhjOS1jNThiLTQxYmYtYmYwZi0wMmE0NmZlMzQyZGUiLCJleHAiOjE3NDIwNTI1MTd9.dtOIQb1lpGcJkOES-7O3qWVYGf9Ndd4GxSIW8l9wAAQ"
+            }
+        },
+        {
+            "_id": "a4b80601-6430-4180-9a49-b2f255b66cbf",
+            "colId": "947bea58-1abf-4177-a224-5465468ce72c",
+            "containerId": "",
+            "name": "Module7_3 accounts",
+            "url": "http://127.0.0.1:5000/accounts",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2025-03-15T15:17:32.180Z",
+            "modified": "2025-03-15T15:17:32.180Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjA1MTYxNywianRpIjoiYThiZDM5ODctMWJiNi00ZTlhLTk5MmUtNTM1NzM0ZWRlZmVkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDIwNTE2MTcsImNzcmYiOiI1MjU4MjhjOS1jNThiLTQxYmYtYmYwZi0wMmE0NmZlMzQyZGUiLCJleHAiOjE3NDIwNTI1MTd9.dtOIQb1lpGcJkOES-7O3qWVYGf9Ndd4GxSIW8l9wAAQ"
+            }
+        },
+        {
+            "_id": "56633b2e-65b8-467a-937b-216c2055c408",
+            "colId": "947bea58-1abf-4177-a224-5465468ce72c",
+            "containerId": "",
+            "name": "Module7_3 transactions",
+            "url": "http://127.0.0.1:5000/transactions",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2025-03-15T15:17:40.312Z",
+            "modified": "2025-03-15T15:17:40.312Z",
+            "headers": [
+                {
+                    "name": "account_id",
+                    "value": "1",
+                    "isDisabled": true
+                },
+                {
+                    "name": "ammount",
+                    "value": "200",
+                    "isDisabled": true
+                },
+                {
+                    "name": "type",
+                    "value": "withdrawal",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"account_id\": 1,\n    \"amount\": 900,\n    \"type\": \"deposit\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjA1MTYxNywianRpIjoiYThiZDM5ODctMWJiNi00ZTlhLTk5MmUtNTM1NzM0ZWRlZmVkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDIwNTE2MTcsImNzcmYiOiI1MjU4MjhjOS1jNThiLTQxYmYtYmYwZi0wMmE0NmZlMzQyZGUiLCJleHAiOjE3NDIwNTI1MTd9.dtOIQb1lpGcJkOES-7O3qWVYGf9Ndd4GxSIW8l9wAAQ"
+            }
+        },
+        {
+            "_id": "83e3484a-9360-40cb-bcbf-8d9fba14bcde",
+            "colId": "947bea58-1abf-4177-a224-5465468ce72c",
+            "containerId": "",
+            "name": "Module7_3 transactions history",
+            "url": "http://127.0.0.1:5000/transactions/history",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2025-03-15T15:17:52.065Z",
+            "modified": "2025-03-15T15:17:52.065Z",
+            "headers": [
+                {
+                    "name": "account_id",
+                    "value": "1",
+                    "isDisabled": true
+                },
+                {
+                    "name": "ammount",
+                    "value": "200",
+                    "isDisabled": true
+                },
+                {
+                    "name": "type",
+                    "value": "withdrawal",
+                    "isDisabled": true
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjA1MTYxNywianRpIjoiYThiZDM5ODctMWJiNi00ZTlhLTk5MmUtNTM1NzM0ZWRlZmVkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDIwNTE2MTcsImNzcmYiOiI1MjU4MjhjOS1jNThiLTQxYmYtYmYwZi0wMmE0NmZlMzQyZGUiLCJleHAiOjE3NDIwNTI1MTd9.dtOIQb1lpGcJkOES-7O3qWVYGf9Ndd4GxSIW8l9wAAQ"
+            }
+        },
+        {
+            "_id": "ca0b904f-4d73-4673-9bb4-ceb7d6c3b4c2",
+            "colId": "947bea58-1abf-4177-a224-5465468ce72c",
+            "containerId": "",
+            "name": "Module7_3 update users/me",
+            "url": "http://127.0.0.1:5000/users/me",
+            "method": "PUT",
+            "sortNum": 110000,
+            "created": "2025-03-15T15:17:58.303Z",
+            "modified": "2025-03-15T15:17:58.303Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"username\": \"updatedadmin\",\n    \"password\": \"newsecurepassword123\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjA1MTYxNywianRpIjoiYThiZDM5ODctMWJiNi00ZTlhLTk5MmUtNTM1NzM0ZWRlZmVkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDIwNTE2MTcsImNzcmYiOiI1MjU4MjhjOS1jNThiLTQxYmYtYmYwZi0wMmE0NmZlMzQyZGUiLCJleHAiOjE3NDIwNTI1MTd9.dtOIQb1lpGcJkOES-7O3qWVYGf9Ndd4GxSIW8l9wAAQ"
+            }
+        },
+        {
+            "_id": "64633ba1-16cf-4d2d-b1c6-9850da8cd537",
+            "colId": "947bea58-1abf-4177-a224-5465468ce72c",
+            "containerId": "",
+            "name": "Module7_3 get users",
+            "url": "http://127.0.0.1:5000/users",
+            "method": "GET",
+            "sortNum": 120000,
+            "created": "2025-03-15T15:18:06.177Z",
+            "modified": "2025-03-15T15:18:06.177Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjA1MTYxNywianRpIjoiYThiZDM5ODctMWJiNi00ZTlhLTk5MmUtNTM1NzM0ZWRlZmVkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE3NDIwNTE2MTcsImNzcmYiOiI1MjU4MjhjOS1jNThiLTQxYmYtYmYwZi0wMmE0NmZlMzQyZGUiLCJleHAiOjE3NDIwNTI1MTd9.dtOIQb1lpGcJkOES-7O3qWVYGf9Ndd4GxSIW8l9wAAQ"
+            }
+        }
+    ],
+    "ref": "HKwyvgM_JTNnYNBhHwBTniQXtN2izJo5h4eZFYPPFjpYRFdHYWYa29JPeJVCSLI629Apq_McygHr5TBwd5Sgig"
+}

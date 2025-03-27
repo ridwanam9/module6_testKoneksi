@@ -1,0 +1,183 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "module7_apiDoumentationUser",
+    "collectionId": "01b61dca-2451-4394-a903-a391449d6769",
+    "dateExported": "2025-03-15T15:20:51.139Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "7590dc01-1e02-499e-a2b8-9e2ac77efc00",
+            "colId": "01b61dca-2451-4394-a903-a391449d6769",
+            "containerId": "",
+            "name": "Module7_3 Login user",
+            "url": "http://127.0.0.1:5000/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-03-15T13:33:12.494Z",
+            "modified": "2025-03-15T13:33:12.494Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"user1\", \n  \"password\": \"user123\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "633c83c5-43ab-4f51-941c-bc3e921220cd",
+            "colId": "01b61dca-2451-4394-a903-a391449d6769",
+            "containerId": "",
+            "name": "Module7_3 users/me",
+            "url": "http://127.0.0.1:5000/users/me",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2025-03-15T13:33:24.010Z",
+            "modified": "2025-03-15T13:33:24.010Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjA0NTQ4MSwianRpIjoiMzg0ZGYxZmYtMjk3Zi00N2JkLThiMGEtMmQzMjc1OGZhMDBhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIiLCJuYmYiOjE3NDIwNDU0ODEsImNzcmYiOiI1ODMxMDgyNy0wNjEzLTQxMmYtYTZlZS0wNjFlMTZkZjcwNmEiLCJleHAiOjE3NDIwNDYzODF9.qYO_FKpTpPka3B4-yCBRO9VcG8plXOqwTQ_jG-1gtgk"
+            }
+        },
+        {
+            "_id": "694816c5-1d0e-46f7-8bdc-b25652ed901d",
+            "colId": "01b61dca-2451-4394-a903-a391449d6769",
+            "containerId": "",
+            "name": "Module7_3 accounts",
+            "url": "http://127.0.0.1:5000/accounts",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2025-03-15T13:33:33.970Z",
+            "modified": "2025-03-15T13:33:33.970Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjA0NTQ4MSwianRpIjoiMzg0ZGYxZmYtMjk3Zi00N2JkLThiMGEtMmQzMjc1OGZhMDBhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIiLCJuYmYiOjE3NDIwNDU0ODEsImNzcmYiOiI1ODMxMDgyNy0wNjEzLTQxMmYtYTZlZS0wNjFlMTZkZjcwNmEiLCJleHAiOjE3NDIwNDYzODF9.qYO_FKpTpPka3B4-yCBRO9VcG8plXOqwTQ_jG-1gtgk"
+            }
+        },
+        {
+            "_id": "d8ad2e3a-c539-4c8c-b022-4e6a2441297a",
+            "colId": "01b61dca-2451-4394-a903-a391449d6769",
+            "containerId": "",
+            "name": "Module7_3 transactions",
+            "url": "http://127.0.0.1:5000/transactions",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2025-03-15T13:33:44.962Z",
+            "modified": "2025-03-15T13:33:44.962Z",
+            "headers": [
+                {
+                    "name": "account_id",
+                    "value": "1",
+                    "isDisabled": true
+                },
+                {
+                    "name": "ammount",
+                    "value": "200",
+                    "isDisabled": true
+                },
+                {
+                    "name": "type",
+                    "value": "withdrawal",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"account_id\": 2,\n    \"amount\": 900,\n    \"type\": \"deposit\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjA0NTQ4MSwianRpIjoiMzg0ZGYxZmYtMjk3Zi00N2JkLThiMGEtMmQzMjc1OGZhMDBhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIiLCJuYmYiOjE3NDIwNDU0ODEsImNzcmYiOiI1ODMxMDgyNy0wNjEzLTQxMmYtYTZlZS0wNjFlMTZkZjcwNmEiLCJleHAiOjE3NDIwNDYzODF9.qYO_FKpTpPka3B4-yCBRO9VcG8plXOqwTQ_jG-1gtgk"
+            }
+        },
+        {
+            "_id": "a8f418d2-7195-48a5-977b-737e75a39fdd",
+            "colId": "01b61dca-2451-4394-a903-a391449d6769",
+            "containerId": "",
+            "name": "Module7_3 transactions history",
+            "url": "http://127.0.0.1:5000/transactions/history",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2025-03-15T13:33:57.250Z",
+            "modified": "2025-03-15T13:33:57.250Z",
+            "headers": [
+                {
+                    "name": "account_id",
+                    "value": "1",
+                    "isDisabled": true
+                },
+                {
+                    "name": "ammount",
+                    "value": "200",
+                    "isDisabled": true
+                },
+                {
+                    "name": "type",
+                    "value": "withdrawal",
+                    "isDisabled": true
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjA0NTQ4MSwianRpIjoiMzg0ZGYxZmYtMjk3Zi00N2JkLThiMGEtMmQzMjc1OGZhMDBhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIiLCJuYmYiOjE3NDIwNDU0ODEsImNzcmYiOiI1ODMxMDgyNy0wNjEzLTQxMmYtYTZlZS0wNjFlMTZkZjcwNmEiLCJleHAiOjE3NDIwNDYzODF9.qYO_FKpTpPka3B4-yCBRO9VcG8plXOqwTQ_jG-1gtgk"
+            }
+        },
+        {
+            "_id": "2af597b3-21b5-4a75-b1b8-7c83577e54f1",
+            "colId": "01b61dca-2451-4394-a903-a391449d6769",
+            "containerId": "",
+            "name": "Module7_3 update users/me",
+            "url": "http://127.0.0.1:5000/users/me",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2025-03-15T13:38:19.769Z",
+            "modified": "2025-03-15T13:38:19.769Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"username\": \"updatedUser2\",\n    \"password\": \"newsecurepassword123\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjA0NTQ4MSwianRpIjoiMzg0ZGYxZmYtMjk3Zi00N2JkLThiMGEtMmQzMjc1OGZhMDBhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIiLCJuYmYiOjE3NDIwNDU0ODEsImNzcmYiOiI1ODMxMDgyNy0wNjEzLTQxMmYtYTZlZS0wNjFlMTZkZjcwNmEiLCJleHAiOjE3NDIwNDYzODF9.qYO_FKpTpPka3B4-yCBRO9VcG8plXOqwTQ_jG-1gtgk"
+            }
+        },
+        {
+            "_id": "26079a22-3b0c-45a8-bb5c-cee7304e8620",
+            "colId": "01b61dca-2451-4394-a903-a391449d6769",
+            "containerId": "",
+            "name": "Module7_3 get users",
+            "url": "http://127.0.0.1:5000/users",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2025-03-15T13:39:15.651Z",
+            "modified": "2025-03-15T13:39:15.651Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjA0NTQ4MSwianRpIjoiMzg0ZGYxZmYtMjk3Zi00N2JkLThiMGEtMmQzMjc1OGZhMDBhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIiLCJuYmYiOjE3NDIwNDU0ODEsImNzcmYiOiI1ODMxMDgyNy0wNjEzLTQxMmYtYTZlZS0wNjFlMTZkZjcwNmEiLCJleHAiOjE3NDIwNDYzODF9.qYO_FKpTpPka3B4-yCBRO9VcG8plXOqwTQ_jG-1gtgk"
+            }
+        },
+        {
+            "_id": "422f0dda-78a8-4273-81f8-2dc1a94b83a1",
+            "colId": "01b61dca-2451-4394-a903-a391449d6769",
+            "containerId": "",
+            "name": "Module7_3 create user",
+            "url": "http://127.0.0.1:5000/users",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2025-03-15T15:20:42.728Z",
+            "modified": "2025-03-15T15:20:42.728Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"Ridwan\",\n    \"password\": \"ridwan123\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "PngLRpCoPbjmSmrzqFboZnXjoNwxRc3UqGG7mrNquJG7rgWykc5zP3jQmwjwOjOfDLgvMwNlt1aIt6ZKxcRcAg"
+}

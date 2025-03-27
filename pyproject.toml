@@ -1,0 +1,10 @@
+[project]
+name = "module7-4"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flask>=3.1.0",
+    "flask-jwt-extended>=4.7.1",
+]
